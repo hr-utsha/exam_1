@@ -1,14 +1,11 @@
-def add(a,b) : 
-    return a+b 
-def sub(a,b) : 
-    return a-b 
-def mul(a,b) : 
-    return a*b 
-def div(a,b) : 
-    return a/b 
+def calculator(a,b,c) : 
+    if c == "add" : 
+        return a + b
+    elif c == "sub":
+        return a - b 
+    elif c == "mul" : 
+        return a * b
+    elif c == "div" :
+        return a / b
 
-
-print(add(5,10))
-print(sub(5,10))
-print(mul(5,10))
-print(div(5,10))
+print(calculator(5,10,"div"))
